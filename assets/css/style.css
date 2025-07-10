@@ -1,0 +1,447 @@
+.f-w {
+    font-weight: 700;
+}
+
+/* herosection start */
+#herosec {
+    background-image: url(../img/hero-bg.jpg);
+    height: 95vh;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    background-color: black;
+    opacity: 0.7;
+    height: -webkit-fill-available;
+}
+
+#herosec .logo {
+    width: 170px;
+    height: 50px;
+}
+
+#herosec .home {
+    color: hsl(25.71deg 83.34% 56.22%);
+    font-size: 16px;
+}
+
+#herosec .item {
+    color: hsl(40deg 3.53% 66.67%);
+    font-size: 16px;
+}
+
+#herosec .icons {
+    color: hsl(40deg 3.53% 66.67%);
+}
+
+#herosec .hero-sec {
+    padding-top: 260px;
+}
+
+#herosec .heading {
+    color: hsl(25.71deg 83.34% 56.22%);
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+#herosec .seasonal-fruit {
+    font-size: 75px;
+}
+
+#herosec .fruitbtn {
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    color: white;
+}
+
+#herosec .contact-btn {
+    background-color: transparent;
+    border: 2px solid hsl(25.71deg 83.34% 56.22%);
+    color: white;
+}
+
+/* herosection end */
+
+/* features section start */
+#features {
+    background-color: hsl(40deg 3.53% 66.67%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#features .features-icon {
+    border: 3px dotted hsl(25.71deg 83.34% 56.22%);
+    width: 60px;
+    height: 60px;
+}
+
+#features i {
+    font-size: 30px;
+    color: hsl(25.71deg 83.34% 56.22%);
+}
+
+/* features section end */
+
+/* our-products section start */
+#our-products {
+    padding-top: 165px;
+    padding-bottom: 150px;
+    background-color: hsl(0, 5%, 83%);
+}
+
+#our-products h1 {
+    position: relative;
+    font-size: 43px;
+}
+
+#our-products span {
+    color: hsl(25.71deg 83.34% 56.22%);
+}
+
+#our-products h1:after {
+    display: inline-block;
+    content: " ";
+    width: 56px;
+    height: 2px;
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    position: absolute;
+    top: 62px;
+    left: 622px;
+}
+
+#our-products .para {
+    width: 562px;
+    font-size: 17px;
+    margin-left: 373px;
+}
+
+#our-products .row {
+    margin-top: 70px;
+}
+
+#our-products .addtocartbtn {
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    color: white;
+    border: transparent;
+}
+
+/* our-products section end */
+
+/* deal-month section start */
+#deal-month {
+    background-color: hsl(0, 0%, 88%);
+    height: 95vh;
+}
+
+#deal-month .off {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    position: absolute;
+    top: 2220px;
+    left: 190px;
+}
+
+#deal-month span {
+    color: hsl(25.71deg 83.34% 56.22%);
+}
+
+#deal-month h1 {
+    font-size: 47px;
+}
+
+#deal-month h4 {
+    font-weight: 500;
+}
+
+#deal-month .para {
+    font-size: 15px;
+    width: 552px;
+}
+
+#deal-month img {
+    width: 540px;
+    margin-top: 29px;
+}
+
+#deal-month .img {
+    margin-top: 130px;
+}
+
+#deal-month .col-2 {
+    border: 3px solid hsl(25.71deg 83.34% 56.22%);
+    width: 85px;
+    height: 87px;
+}
+
+#deal-month h2 {
+    color: hsl(25.71deg 83.34% 56.22%);
+}
+
+#deal-month .addtocartbtn {
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    color: white;
+    border: transparent;
+}
+
+/* deal-month section end */
+
+/* owner section start */
+#owner {
+    padding-top: 150px;
+    height: 100vh;
+    background-color: hsl(0, 3%, 82%);
+}
+
+#owner img {
+    width: 130px;
+    height: 130px;
+}
+
+#owner p {
+    color: hsl(198deg 5% 39.22%);
+    font-size: 17px;
+}
+
+#owner .para {
+    width: 671px;
+    font-size: 18px;
+}
+
+#owner i {
+    font-size: 35px;
+    color: hsl(192deg 1.98% 50.39%);
+}
+
+/* owner section end */
+
+/* info section start */
+#info {
+    height: 85vh;
+    background-color: hsl(0, 3%, 82%);
+}
+
+#info img {
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+#info span {
+    color: hsl(25.71deg 83.34% 56.22%);
+}
+
+#info .heading {
+    font-size: 50px;
+}
+
+#info .know-morebtn {
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    color: white;
+    border: transparent;
+}
+
+#info .para {
+    color: hsl(198deg 5% 39.22%);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#info .para1 {
+    width: 494px;
+    font-size: 17px;
+}
+
+#info .para2 {
+    width: 441px;
+    font-size: 17px;
+}
+
+/* info section end */
+
+/* discount section start */
+#discount {
+    background-image: url(../img/1.jpg);
+    height: 60vh;
+}
+
+#discount .heading {
+    width: 547px;
+    font-size: 51px;
+    padding-top: 100px;
+}
+
+#discount span {
+    color: hsl(25.71deg 83.34% 56.22%);
+}
+
+#discount .sale {
+    width: 75px;
+}
+
+#discount .off {
+    font-size: 50px;
+    color: hsl(25.71deg 83.34% 56.22%);
+}
+
+#discount .para {
+    font-size: 20px;
+}
+
+#discount .shopbtn {
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    color: white;
+    border: transparent;
+}
+
+/* discount section end */
+
+/* our-news section start */
+#our-news {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+#our-news h1 {
+    font-size: 43px;
+}
+
+#our-news span {
+    color: hsl(25.71deg 83.34% 56.22%);
+}
+
+#our-news h1:after {
+    display: inline-block;
+    content: " ";
+    width: 56px;
+    height: 2px;
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    position: absolute;
+    top: 4801px;
+    left: 733px;
+}
+
+#our-news .para {
+    width: 562px;
+    font-size: 17px;
+    margin-left: 371px;
+}
+
+#our-news .heading {
+    width: 349px;
+    font-size: 24px;
+}
+
+#our-news .para1 {
+    width: 308px;
+    font-size: 16px;
+}
+
+#our-news .readmorebtn {
+    border: transparent;
+    background-color: transparent;
+}
+
+#our-news .more-newsbtn {
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    color: white;
+    border: transparent;
+}
+
+/* our-news section end */
+
+/* logo section start */
+#logo {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: hsl(0, 3%, 82%);
+}
+
+/* logo section end */
+
+/* footer section start */
+#footer {
+    padding-top: 150px;
+    background-color: black;
+}
+
+#footer h3 {
+    color: hsl(60deg 1.84% 68.04%);
+}
+
+#footer .about h3:after {
+    display: inline-block;
+    content: " ";
+    width: 30px;
+    height: 2px;
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    position: absolute;
+    left: 113px;
+    margin-top: 40px;
+}
+#footer .get h3:after {
+    display: inline-block;
+    content: " ";
+    width: 30px;
+    height: 2px;
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    position: absolute;
+    left: 445px;
+    margin-top: 40px;
+}
+#footer .page h3:after {
+    display: inline-block;
+    content: " ";
+    width: 30px;
+    height: 2px;
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    position: absolute;
+    left: 774px;
+    margin-top: 40px;
+}
+#footer .subscribe h3:after {
+    display: inline-block;
+    content: " ";
+    width: 30px;
+    height: 2px;
+    background-color: hsl(25.71deg 83.34% 56.22%);
+    position: absolute;
+    left: 1102px;
+    margin-top: 40px;
+}
+
+#footer p {
+    color: hsl(202.5deg 3.64% 43.14%);
+}
+
+#footer .para {
+    width: 267px;
+}
+
+#footer .para1 {
+    width: 256px;
+}
+
+#footer i {
+    color: hsl(25.71deg 83.34% 56.22%);
+}
+
+#footer .Copyrights {
+    width: 430px;
+    font-size: 17px;
+}
+
+#footer span {
+    color: hsl(25.71deg 83.34% 56.22%);
+}
+
+#footer .icons i {
+    font-size: 25px;
+    color: hsl(202.5deg 3.64% 43.14%);
+}
+#footer #email{
+    background-color: hsl(198.95deg 95% 7.84%);
+}
+#footer button{
+    background-color: hsl(198.95deg 95% 7.84%);
+}
+/* footer section end */
